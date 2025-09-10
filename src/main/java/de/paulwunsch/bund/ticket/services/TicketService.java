@@ -1,4 +1,4 @@
-package de.paulwunsch.bund.ticket.service;
+package de.paulwunsch.bund.ticket.services;
 
 import de.paulwunsch.bund.ticket.dtos.CreateTicketRequest;
 import de.paulwunsch.bund.ticket.dtos.TicketResponse;

@@ -5,7 +5,7 @@ import de.paulwunsch.bund.ticket.dtos.TicketResponse;
 import de.paulwunsch.bund.ticket.dtos.UpdateTicketStatusRequest;
 import de.paulwunsch.bund.ticket.repositories.TicketRepository;
 import de.paulwunsch.bund.ticket.repositories.UserRepository;
-import de.paulwunsch.bund.ticket.service.TicketService;
+import de.paulwunsch.bund.ticket.services.TicketService;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
