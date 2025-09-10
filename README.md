@@ -10,6 +10,7 @@ Kurze Demo-Anwendung im Kontext ITZBund: kleiner Servicekatalog und Ticket-Manag
 - springdoc-openapi (Swagger UI)
 - Logging (SLF4J) 
 - JPA Auditing (createdAt/updatedAt)
+- Jenkins als CI/CD Pipeline
 
 ## Domänenmodell (klein)
 - User (app_user)
@@ -30,6 +31,7 @@ Kurze Demo-Anwendung im Kontext ITZBund: kleiner Servicekatalog und Ticket-Manag
 - Pagination/Sorting: Spring Data `Pageable` in List-Endpunkten
 - H2-Console: aktiviert für lokale Entwicklung (`/h2`)
 - Optional erweiterbar: Security (Basic Auth), Micrometer/Prometheus, Caching, Optimistic Locking (`@Version`)
+- Jenkins-CI/CD Pipeline (siehe `Jenkinsfile`)
 
 ## Build & Run
 Voraussetzungen: Java 17+, Maven
